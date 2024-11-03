@@ -14,6 +14,21 @@ echo "Python interpreter: $(which python)"
 pip install -r requirements.txt
 ```
 
+### Environment variables
+
+Set the following environment variables. A convenient place to do this is in `venv/bin/activate`.
+
+```bash
+  # HuggingFace - to download Llama 3 base models
+  export HUGGING_FACE_HUB_TOKEN="[...]"
+
+  # OpenAI - to evaluate generated responses
+  export OPENAI_API_KEY="[...]"
+
+  # Weights and Biases - for monitoring
+  export WANDB_API_KEY="[...]"  
+```
+
 ## Usage
 
 ```bash
