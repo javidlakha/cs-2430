@@ -26,4 +26,5 @@ export PYTHONPATH=\"\$PWD:\$PYTHONPATH\
 
 # Run experiments
 python run.py
+python evaluate.py
 ```
